@@ -1,0 +1,7 @@
+- name: Debug Playook
+  hosts: all
+  tasks:
+    - name: print message 
+      debug:
+        msg: "welcome to cloudblitz"
+        
