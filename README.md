@@ -24,7 +24,8 @@ key:value
 
 - Dictionaries
 ---shell
-Na
+Name:- Hitesh
+edu:- B
 
 
 
