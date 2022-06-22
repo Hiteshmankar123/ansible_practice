@@ -11,3 +11,4 @@ key:value
     List 
     Dictionaries
     string
+    Boolean
