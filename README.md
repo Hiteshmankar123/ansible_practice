@@ -7,4 +7,4 @@ YAML Ain't Markup Language. It is DSL Language which can be used to store data i
 key:value 
 - YAML support indentation block 
 - YAML start with '---' & end with '...'
-- 
+- Data Types:
