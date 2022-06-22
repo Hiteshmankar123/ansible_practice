@@ -9,4 +9,5 @@ key:value
 - YAML start with '---' & end with '...'
 - Data Types:-
     List 
-    Diction
+    Dictionaries
+    string
