@@ -16,9 +16,9 @@ key:value
 
 - list
 ---shell
- -mango
-   -banana
-   -apple
+-mango
+-banana
+-apple
 ...
 
 
