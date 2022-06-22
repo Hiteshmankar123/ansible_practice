@@ -39,6 +39,9 @@ welcome: "hello world"
 - Boolean value
 ---shell
 male: true
+false
+0
+
 
 
 
