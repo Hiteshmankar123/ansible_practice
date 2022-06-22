@@ -5,3 +5,5 @@
  For Account: 12312345678
  Account type: saving 
  Checkbook_Issued: true  
+ Nominees:
+  - bro
