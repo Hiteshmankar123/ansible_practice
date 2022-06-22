@@ -26,7 +26,7 @@ key:value
 ---shell
 Name: Hitesh
 Education: BE
-Emp_no:- 10223
+Emp_no: 10223
 ...
 
 - string (collection of words)
@@ -38,7 +38,7 @@ Emp_no:- 10223
 
 - Boolean value
 ---shell
-male: 
+male: true
 
 
 
