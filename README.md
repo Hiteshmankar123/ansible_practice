@@ -29,7 +29,8 @@ Education:- BE
 Emp_no:- 10223
 ...
 
-- string (collection )
+- string (collection of words)
+--
 
 
 
