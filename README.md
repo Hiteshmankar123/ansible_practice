@@ -33,7 +33,7 @@ Emp_no: 10223
 ---shell
 Name: "hitesh"
 surname: "mankar"
-xyz: "hello world"
+welcome: "hello world"
 ...
 
 - Boolean value
