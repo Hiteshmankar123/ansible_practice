@@ -24,8 +24,8 @@ key:value
 
 - Dictionaries
 ---shell
-Name:- Hitesh
-Education:- BE
+Name: Hitesh
+Education: BE
 Emp_no:- 10223
 ...
 
