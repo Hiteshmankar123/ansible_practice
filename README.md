@@ -34,7 +34,9 @@ Emp_no:- 10223
 "hitesh"
 "mankar"
 "hello world"
+...
 
+- Boolean value
 
 
 
