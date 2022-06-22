@@ -2,4 +2,4 @@
   hosts: all
   tasks: 
      - name: print message
-       
+       debug
