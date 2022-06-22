@@ -29,7 +29,7 @@ Education:- BE
 Emp_no:- 10223
 ...
 
-- string (colla)
+- string (collection )
 
 
 
