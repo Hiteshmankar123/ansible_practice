@@ -12,9 +12,9 @@ key:value
     Dictionaries
     string
     Boolean
-
+---
 - list
    -mango
    -banana
    -apple
-      
+...      
