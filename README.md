@@ -14,4 +14,5 @@ key:value
     Boolean
 
 - list
-   -mango   
+   -mango
+   -   
