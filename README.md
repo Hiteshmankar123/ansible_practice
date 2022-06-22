@@ -41,7 +41,9 @@ welcome: "hello world"
 male: true
 false
 0
-
+1  
+yes 
+no
 
 
 
