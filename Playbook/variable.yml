@@ -1,3 +1,5 @@
 - name: variable playbook example
   hosts: all
-  tasks
+  tasks: 
+     - name: print message
+       
