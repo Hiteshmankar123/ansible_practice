@@ -15,6 +15,7 @@ key:value
 
 
 - list
+---
    -mango
    -banana
    -apple
