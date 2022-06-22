@@ -19,4 +19,4 @@ key:value
    -mango
    -banana
    -apple
-...      
+    
