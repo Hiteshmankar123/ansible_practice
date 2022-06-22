@@ -15,7 +15,7 @@ key:value
 
 
 - list
----shell
+shell
 -mango
 -banana
 -apple
