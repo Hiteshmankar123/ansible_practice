@@ -11,4 +11,8 @@
   - mother
 
  PurchaseList:
-  - Fruits: [banana, apple, pi]  
+  - Fruits: [banana, apple, pineapple] 
+  - veg:
+    - carrot
+    - onion
+     
