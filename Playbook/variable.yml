@@ -7,3 +7,4 @@
   vars_prompt:
      - name: URL
        prompt: "please enter the url"
+  tasks:     
