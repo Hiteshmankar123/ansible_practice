@@ -17,4 +17,4 @@
          msg: "OS is {{ ansible_distribution }}"
      - name: print machine name
        debug:
-         msg: "Hostname = "              
+         msg: "Hostname = {{ ansible}}"              
