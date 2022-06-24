@@ -7,8 +7,8 @@
 #  vars_prompt:
  #    - name: URL
  #      prompt: "please enter the url:"
-       private: false
-  tasks:
+  #     private: false
+  #tasks:
      - name: print message
        debug:
          msg: "welcome to {{ URL }}"  
