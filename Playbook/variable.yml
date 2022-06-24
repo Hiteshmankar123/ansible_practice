@@ -6,4 +6,4 @@
      - "./var.yml"
   vars_prompt:
      - name: URL
-       promp
+       prompt: ""
