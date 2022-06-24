@@ -23,4 +23,4 @@
        register: OUT
      - name: print register
        debug:
-          msg: "{{ OUT }}"
+          msg: "{{ OUT.stdout }}"
