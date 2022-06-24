@@ -4,4 +4,4 @@
     URL: "global.google.com"
   vars_files: 
      - "./var.yml"
-  
+  vars
