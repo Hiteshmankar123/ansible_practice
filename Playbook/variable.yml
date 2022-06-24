@@ -4,16 +4,4 @@
     URL: "global.google.com"
   vars_files: 
      - "./var.yml"
-  tasks: 
-     - name: print message
-       debug:
-          msg: "Welcome TO {{ URL }}"
-     - name: 2nd print message
-       debug:
-         msg: "Welcome to {{ URL }}" 
-       VARS: 
-         URL: "local.google.com"   
-     - name: 3rd print messsage
-       debug:
-         msg: "welcome to {{ URL }}"       
-       
+  
