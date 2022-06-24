@@ -2,7 +2,7 @@
   hosts: all
   vars:
     URL: "global.google.com"
-  vars_files: 
+ # vars_files: 
      - "./var.yml"
   vars_prompt:
      - name: URL
