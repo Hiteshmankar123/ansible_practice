@@ -15,7 +15,7 @@
      - name: print node's OS
        debug:
          msg: "OS is {{ ansible_distribution }}"
-     - name: print machine name
+     - name: print 
        debug:
          msg: "Hostname = {{ ansible_nodename }}"  
      - name: register variables
