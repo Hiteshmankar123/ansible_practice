@@ -3,7 +3,7 @@
   vars:
     URL: "global.google.com"
     vars_files: 
-              - "./var.yml"
+          - "./var.yml"
   tasks: 
      - name: print message
        debug:
