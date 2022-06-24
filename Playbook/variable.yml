@@ -15,4 +15,4 @@
      - name: print node's OS
        debug:
          msg: "OS is {{ ansible_distribution }}"
-                   
+     - name:               
