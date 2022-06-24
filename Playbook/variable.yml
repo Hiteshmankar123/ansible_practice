@@ -2,7 +2,7 @@
   hosts: all
   vars:
     URL: "global.google.com"
-    VAR1: "HITESH MANKAR"
+    var_files: "HITESH MANKAR"
   tasks: 
      - name: print message
        debug:
