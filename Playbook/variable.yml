@@ -10,4 +10,5 @@
      - name: 2nd print message
        debug:
        msg: "Welcome to {{ URL }}" 
-             
+       VARS: 
+         URL:      
