@@ -6,5 +6,5 @@
   tasks: 
      - name: print message
        debug:
-          msg: "Hello wworld {{ URL }}, my name is {{ VAR1 }}"
+          msg: "Welcome TO {{ URL }}, my name is {{ VAR1 }}"
           
