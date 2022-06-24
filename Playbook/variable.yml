@@ -2,7 +2,7 @@
   hosts: all
   vars:
     URL: "global.google.com"
-    var_files: "var.yml"
+    vars_files: "var.yml"
   tasks: 
      - name: print message
        debug:
