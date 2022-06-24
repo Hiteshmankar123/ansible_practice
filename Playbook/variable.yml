@@ -11,4 +11,4 @@
   tasks:
      - name: print message
        debug:
-         msg: "welcome to {{ URL }}"     
+         msg: "welcome to {{ URL }}"      
