@@ -13,5 +13,5 @@
        msg: "Welcome to {{ URL }}" 
        VARS: 
          URL: "local.google.com"   
-     - name       
+     - name: 3rd print messsage       
        
