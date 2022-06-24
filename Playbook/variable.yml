@@ -16,4 +16,5 @@
        debug:
          msg: "OS is {{ ansible_distribution }}"
      - name: print machine name
-       degu              
+       debug:
+         msg: '              
