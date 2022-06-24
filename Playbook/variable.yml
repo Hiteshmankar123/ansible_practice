@@ -11,4 +11,4 @@
        debug:
        msg: "Welcome to {{ URL }}" 
        VARS: 
-         URL:      
+         URL: "L"      
