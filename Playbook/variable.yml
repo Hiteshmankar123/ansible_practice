@@ -17,7 +17,7 @@
          msg: "OS is {{ ansible_distribution }}"
      - name: print IP
        debug:
-         msg: "Hostname = {{ ansible_nodename }}"  
+         msg: "Hostname = {{ ansible_de }}"  
      - name: register variables
        shell: echo "Hello World"
        register: OUT
