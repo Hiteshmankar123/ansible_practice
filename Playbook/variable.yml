@@ -14,4 +14,5 @@
          msg: "welcome to {{ URL }}"  
      - name: print node's OS
        debug:
-         msg: "OS is {{ ansible_distribution }}"          
+         msg: "OS is {{ ansible_distribution }}"
+                   
