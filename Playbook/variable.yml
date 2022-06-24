@@ -12,5 +12,6 @@
        debug:
        msg: "Welcome to {{ URL }}" 
        VARS: 
-         URL: "local.google.com"      
+         URL: "local.google.com"   
+     - name       
        
