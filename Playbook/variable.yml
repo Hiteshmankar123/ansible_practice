@@ -22,3 +22,5 @@
        shell: echo "Hello World"
        register: OUT
      - name: print register
+       debug:
+          msg: "{{ OUT.stdout }}"
