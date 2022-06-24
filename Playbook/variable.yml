@@ -9,4 +9,4 @@
           msg: "Welcome TO {{ URL }}"
      - name: 2nd print message
        debug:
-       msg: "Welcome to "     
+       msg: "Welcome to {{ URL }"     
