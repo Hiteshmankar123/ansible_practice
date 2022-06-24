@@ -8,4 +8,5 @@
        debug:
           msg: "Welcome TO {{ URL }}"
      - name: 2nd print message
-       debug:     
+       debug:
+       msg: ""     
