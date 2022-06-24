@@ -18,7 +18,7 @@
      - name: print machine name
        debug:
          msg: "Hostname = {{ ansible_nodename }}"  
-     - name: register variable
+     - name: register variables
        shell: echo "Hello World"
        register: OUT
      - name: print register
