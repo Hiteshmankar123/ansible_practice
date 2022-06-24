@@ -20,4 +20,5 @@
          msg: "Hostname = {{ ansible_nodename }}"  
      - name: register variable
        shell: echo "Hello World"
+       register: OUT
                       
