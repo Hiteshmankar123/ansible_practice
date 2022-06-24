@@ -12,4 +12,5 @@
      - name: print message
        debug:
          msg: "welcome to {{ URL }}"  
-     - name: print node's OS          
+     - name: print node's OS
+       debug          
