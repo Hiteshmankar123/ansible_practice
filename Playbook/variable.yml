@@ -13,4 +13,5 @@
        VARS: 
          URL: "local.google.com"      
       - name: 3rd print message
-         
+        debug:
+           
