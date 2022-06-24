@@ -9,4 +9,5 @@
        prompt: "please enter the url"
   tasks:
      - name: print message
-       degub     
+       debug:
+            
