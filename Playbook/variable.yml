@@ -1,7 +1,7 @@
 - name: variable playbook example
   hosts: all
   vars:
-    URL:
+    URL: ""
     VAR1: "HITESH MANKAR"
   tasks: 
      - name: print message
