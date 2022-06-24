@@ -10,4 +10,4 @@
   tasks:
      - name: print message
        debug:
-         msg: "welcome to {{}}"     
+         msg: "welcome to {{ URL }}"     
