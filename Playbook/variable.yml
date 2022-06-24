@@ -6,7 +6,7 @@
      - "./var.yml"
   vars_prompt:
      - name: URL
-       prompt: "please enter the url"
+       prompt: "please enter the url:"
   tasks:
      - name: print message
        debug:
