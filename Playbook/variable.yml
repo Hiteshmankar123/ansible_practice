@@ -1,0 +1,10 @@
+- name: variable playbook example
+  hosts: all
+  vars:
+    URL:
+    VAR1: "HITESH MANKAR"
+  tasks: 
+     - name: print message
+       debug:
+          msg: "Hello wworld \n to www.google.com"
+          
