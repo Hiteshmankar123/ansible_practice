@@ -1,3 +1,5 @@
 - name: Loop in ansible
   hosts:
-   
+  tasks:
+     - name: loop
+       deg 
