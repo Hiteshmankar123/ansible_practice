@@ -3,6 +3,8 @@
   tasks:
      - name: Shell script for error
        shell: ps -elf | grep java | grep -v grep
-      
+      ASK [Shell script for error] **********************************************************************************************************************************
+fatal: [172.31.85.175]: FAILED! => {"changed": true, "cmd": "ps -elf | grep java | grep -v grep", "delta": "0:00:00.052427", "end": "2022-06-25 11:52:40.968239", "msg": "non-zero return code", "rc": 1, "start": "2022-06-25 11:52:40.915812", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+
 
      
