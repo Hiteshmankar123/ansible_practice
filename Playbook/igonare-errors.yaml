@@ -2,6 +2,6 @@
   hosts: all
   tasks:
     - name: shell script for error
-      debug: v
+      debug: ps -elf | grep java | grep -v grep
         msg:
      
