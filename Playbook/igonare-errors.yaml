@@ -1,7 +1,8 @@
 - name: Ignore error playbook
   hosts: all
   tasks:
-    - name: shell script for error
-      debug: ps -elf | grep java | grep -v grep
-        msg:
+     - name: Shell script for error
+      shell: ps -elf | grep java | grep -v grep
+      ignore_errors: yes
+
      
