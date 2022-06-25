@@ -1,3 +1,4 @@
 - name: Gathering facts Playbook
   hosts: all
-  
+  tasks:
+     -
