@@ -5,5 +5,5 @@
        debug:
           msg: ' This is {{ ansible_distribution }} '
 
-      - name: print the register variable
+     - name: print the register variable
         debug:     
