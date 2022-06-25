@@ -1,4 +1,5 @@
 - name: Gathering facts Playbook
   hosts: all
   tasks:
-     - name: print OS 
+     - name: print OS name
+       debug:
