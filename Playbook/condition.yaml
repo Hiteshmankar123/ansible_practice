@@ -3,4 +3,4 @@
   tasks:
     - name: print OS if it is centos
       debug:
-        msg: "This is {{ ansible_}}"
+        msg: "This is {{ ansible_distribution }}"
