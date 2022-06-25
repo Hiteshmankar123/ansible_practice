@@ -8,4 +8,4 @@
       
     - name: print the Register variable
       debug:
-        msg: 'Value of the register var is {{ print_out.msg }}'
+        msg: 'Value of the register var is {{ print_out }}'
