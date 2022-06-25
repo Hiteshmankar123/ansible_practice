@@ -2,4 +2,6 @@
   hosts:
   tasks:
      - name: loop
-       debug: 
+       debug:
+         msg: '{{ items }}'
+          
