@@ -3,4 +3,4 @@
   tasks:
      - name: print OS name
        debug:
-          msg: "{{ nasible_di}}"
+          msg: "{{ nasible_distribution }}"
