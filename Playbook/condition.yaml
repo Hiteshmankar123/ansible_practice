@@ -3,4 +3,4 @@
   tasks:
     - name: print OS if it is centos
       debug:
-        msg: "This "
+        msg: "This is {{}}"
