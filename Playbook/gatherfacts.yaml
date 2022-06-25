@@ -6,5 +6,5 @@
           msg: ' This is {{ ansible_distribution }} '
 
      - name: print the register variable
-        debug:    
+      debug:    
           msg: 'value of register var is {{ print_out.msg }}' 
