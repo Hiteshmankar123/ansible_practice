@@ -4,4 +4,4 @@
      - name: loop
        debug:
          msg: '{{ items }}'
-          
+         loops:  
