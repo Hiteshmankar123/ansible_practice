@@ -1,4 +1,4 @@
 - name: condition playbook
   hosts: all
-tasks:
+  tasks:
     - name: print OS if it is centos
