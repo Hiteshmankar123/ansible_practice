@@ -1,4 +1,4 @@
 - name: condition playbook
 hosts: all
 tasks:
-    - name: print 
+    - name: print OS if it is 
