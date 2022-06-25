@@ -4,7 +4,6 @@
      - name: print OS name
        debug:
           msg: ' This is {{ ansible_distribution }} '
-
      - name: print the register variable
         debug:    
           msg: 'value of register var is {{ print_out.msg }}' 
