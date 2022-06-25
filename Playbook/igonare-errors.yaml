@@ -1,5 +1,7 @@
 - name: Ignore error playbook
   hosts: all
   tasks:
-    - nmae:
+    - name: 
+      debud:
+      
      
