@@ -1,1 +1,2 @@
-- name: condition playbboo
+- name: condition playbook
+hosts: all
