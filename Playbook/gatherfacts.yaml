@@ -4,3 +4,4 @@
      - name: print OS name
        debug:
           msg: ' This is {{ ansible_distribution }} '
+          
