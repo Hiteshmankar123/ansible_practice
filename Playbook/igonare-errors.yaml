@@ -1,7 +1,7 @@
 - name: Ignore error playbook
   hosts: all
   tasks:
-    - name: shell script for rroor
-      debug:
+    - name: shell script for error
+      debug: v
         msg:
      
