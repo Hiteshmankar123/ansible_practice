@@ -2,4 +2,4 @@
   hosts:
   tasks:
      - name: loop
-       deg 
+       debug: 
