@@ -3,3 +3,4 @@
   tasks:
      - name: print OS name
        debug:
+        msg
