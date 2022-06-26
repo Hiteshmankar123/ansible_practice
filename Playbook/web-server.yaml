@@ -6,7 +6,7 @@
        state: latest
        name: httpd
  
-    - name: 
+    - name: start htt[d]
        service:
          state: started
          name: httpd
