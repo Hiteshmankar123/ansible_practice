@@ -15,5 +15,5 @@
     - name: Deploy website
       copy:
         src: ./index.html
-        dest: /var/www/html/index.htmlsudo -i
-        
+        dest: /var/www/html/index.html
+
