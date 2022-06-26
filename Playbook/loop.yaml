@@ -4,4 +4,6 @@
      - name: loop
        debug:
          msg: 'my fav fruit {{ items }}'
-         loops:  
+         loops:
+            - mango:
+              
