@@ -1,7 +1,7 @@
 - name: Tags in Playbook
   hosts: all
   tasks:
-     - name: Tag
+     - name: print hello world
        debug:
          msg:  "Hello World"
 
