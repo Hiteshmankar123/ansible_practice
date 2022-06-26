@@ -6,4 +6,5 @@
          msg:  "Hello World"
 
       - name: Tag 
-        debug   
+        debug:
+           msg: "Welcome to India"   
