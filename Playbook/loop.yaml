@@ -4,7 +4,7 @@
      - name: loop 
        debug:
          msg: 'my fav fruit {{ item }}'
-  loop:
-     - apple
-     - banana
-     - orange 
+      loop:
+        - apple
+        - banana
+        - orange 
