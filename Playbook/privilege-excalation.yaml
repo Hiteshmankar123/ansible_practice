@@ -1,8 +1,8 @@
 - name: Privilege Excalation
   hosts: all
 
-  - name: Install HTTPD
-      yum:
+   - name: Install HTTPD
+     yum:
         - name: httpd
           state: latest
       become: true   
