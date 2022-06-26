@@ -1,5 +1,5 @@
 - name: Privilege Excalation
-  hosts:
+  hosts: all
   tasks:
     - name: Install HTTPD
       yum:
