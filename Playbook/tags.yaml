@@ -10,8 +10,10 @@
      - name: print welcom
        debug:
          msg: "Welcome to India"
-       tags:  
+       tags:
+         - cloudblitz  
 
      - name: print india
        debug:
          msg: "This is India"
+       
