@@ -7,7 +7,7 @@
        tags: 
         - hello
 
-     - name: print welcom
+     - name: print welcome
        debug:
          msg: "Welcome to India"
        tags:
