@@ -3,4 +3,4 @@
     state: latest
     name: httpd
 
-    - name:   
+    - name: start httpd   
