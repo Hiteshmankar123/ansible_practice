@@ -1,4 +1,6 @@
 - name: Tags in Playbook
   hosts: all
   tasks:
-     - name
+     - name: Tag
+       debug:
+         msg:  ""
