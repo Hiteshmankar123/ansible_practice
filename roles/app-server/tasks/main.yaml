@@ -1,1 +1,2 @@
-- name: insta
+- name: install java
+    yum:
