@@ -1,5 +1,6 @@
 - name: playbook to create webserver
   hosts: all
+  beco
   tasks:
     - name: install httpd
       yum:
