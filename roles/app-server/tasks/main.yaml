@@ -13,4 +13,5 @@
     src: /opt/{{ TOMCAT_ZIP }}
     dest: /opt/   
     
-- name: start service    
+- name: start service
+  sh    
