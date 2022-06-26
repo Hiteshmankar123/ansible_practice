@@ -3,10 +3,9 @@
   tasks:
      -name: install httpd
      yum:
-      state: latest
-        name: httpd
-
-       - name: start httpd daemon 
+       state: latest
+       name: httpd
+ - name: start httpd daemon 
         service:
          state: started
          name: httpd
