@@ -1,3 +1,6 @@
 - name: playbook to create webserver
   yum:
     state: latest
+    name: httpd
+
+    
