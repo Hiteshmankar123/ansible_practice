@@ -4,4 +4,5 @@
     - Name: Install HTTPD
        yum:
         - name: httpd
-         
+          state: latest
+       become: true   
