@@ -1,5 +1,5 @@
 - name: Loop in ansible
-  hosts:
+  hosts: all
   tasks:
      - name: loop
        debug:
