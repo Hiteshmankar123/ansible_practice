@@ -3,4 +3,4 @@
   tasks:
      - name: 
        debug:
-       
+         msg: my fav fruit 
