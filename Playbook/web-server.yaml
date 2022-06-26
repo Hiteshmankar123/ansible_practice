@@ -1,7 +1,9 @@
 - name: playbook to create webserver
+  hosts: all
+  tasks:
   yum:
     state: latest
-    name: httpd
+     name: httpd
 
      - name: start httpd daemon 
       service:
