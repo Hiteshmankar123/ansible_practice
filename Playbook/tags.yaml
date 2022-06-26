@@ -5,11 +5,12 @@
        debug:
          msg:  "Hello World"
        tags: 
-
+        - hello
 
      - name: print welcom
        debug:
          msg: "Welcome to India"
+       ta  
 
      - name: print india
        debug:
