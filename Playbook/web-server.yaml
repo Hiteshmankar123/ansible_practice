@@ -12,4 +12,7 @@
          name: httpd
          enabled: true  
 
-     - name: Deploy website
+    - name: Deploy website
+      copy:
+        src: ./index.html
+        
