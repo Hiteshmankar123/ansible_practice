@@ -2,7 +2,7 @@
   hosts: all
   tasks:
 
-   - name: Install 
+   - name: Install HTTPD
      yum:
         - name: httpd
           state: latest
