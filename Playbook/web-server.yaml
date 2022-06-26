@@ -7,7 +7,8 @@
        name: httpd
  
      - name: start httpd daemon 
-        service:
+       service:
          state: started
          name: httpd
          enabled: true  
+         
