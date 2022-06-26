@@ -10,7 +10,7 @@
      - name: print welcom
        debug:
          msg: "Welcome to India"
-       ta  
+       tags:  
 
      - name: print india
        debug:
