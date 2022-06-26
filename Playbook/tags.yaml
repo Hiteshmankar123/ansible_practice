@@ -1,1 +1,3 @@
 - name: Tags in Playbook
+  hosts: all
+  tags
