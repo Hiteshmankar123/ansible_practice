@@ -16,4 +16,5 @@
      - name: print india
        debug:
          msg: "This is India"
-       
+       tags:
+        - india
