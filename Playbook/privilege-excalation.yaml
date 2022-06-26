@@ -2,3 +2,6 @@
   hosts:
   tasks:
     - Name: Install HTTPD
+       yum:
+        - name: httpd
+         
