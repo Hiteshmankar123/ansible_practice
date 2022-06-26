@@ -1,3 +1,3 @@
 - name: playbook to create webserver
   yum:
-    state: laet
+    state: latest
