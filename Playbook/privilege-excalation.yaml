@@ -1,4 +1,4 @@
-- name: Privilege Escalation
+- name: httpd
   hosts: all
 
   tasks:
