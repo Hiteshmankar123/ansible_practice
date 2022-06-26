@@ -12,4 +12,5 @@
          name: httpd
          enabled: true  
 
-     - name: Deploy webserver   
+     - name: Deploy website
+        
