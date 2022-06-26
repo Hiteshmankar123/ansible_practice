@@ -9,6 +9,6 @@
        debug:
          msg: "Welcome to India"
 
-     - name: tag
+     - name: print india
        debug:
          msg: "This is India"
