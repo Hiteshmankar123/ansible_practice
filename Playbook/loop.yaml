@@ -2,3 +2,5 @@
   hosts: all
   tasks:
      - name: 
+       debug:
+       
