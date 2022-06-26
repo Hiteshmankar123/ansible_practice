@@ -6,4 +6,5 @@
          msg: 'my fav fruit {{ items}}'
         Loop:
           - apple
-           
+          - banana
+          - orange 
