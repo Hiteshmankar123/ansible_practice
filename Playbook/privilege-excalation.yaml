@@ -1,8 +1,9 @@
-- name: httpd
+- name: Privilege Escalation
   hosts: all
+
   tasks:
-     - name: Ensure the httpd service is running
-       yum:
-      name: httpd
-      state: started
-  become: yes        
+    - name: Install HTTPD
+      yum:
+        name: httpd
+        state: latest
+  become: true     
