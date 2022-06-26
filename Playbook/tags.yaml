@@ -11,7 +11,7 @@
        debug:
          msg: "Welcome to India"
        tags:
-         - cloudblitz  
+         - india
 
      - name: print india
        debug:
