@@ -8,3 +8,7 @@
     - name: use splitext
       debug:
         msg: '{{ "https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.78/bin/apache-tomcat-8.5.78.tar.gz" | splitext | last }}'
+
+    - name: split function
+      debug: 
+        msg: "{{ '/etc/xyz' | split('/') | last }}"    
