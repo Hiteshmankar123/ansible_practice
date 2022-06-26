@@ -14,4 +14,4 @@
     dest: /opt/   
     
 - name: start service
-  shell: /opt/{{TOMCAT_NAME}}    
+  shell: /opt/{{TOMCAT_NAME}}/bin/catalina    
