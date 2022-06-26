@@ -3,8 +3,8 @@
   tasks:
      - name: loop 
        debug:
-         msg: 'my fav fruit {{ item }}'
+         : 'my fav fruit {{ item }}'
        loop:
         - apple
-        - banana
+        - banmsgana
         - orange 
