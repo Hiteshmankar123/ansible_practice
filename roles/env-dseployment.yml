@@ -3,8 +3,4 @@
   become: true
   roles:
     - web-server
-    - app-server
-
-    -name: roles in playbook
-    hosts: all
-    
+    - app-server   
