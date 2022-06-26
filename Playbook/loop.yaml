@@ -4,4 +4,6 @@
      - name: List of fruit
        debug:
          msg: 'my fav fruit {{ items}}'
-        Loop: 
+        Loop:
+          - apple
+           
