@@ -2,8 +2,8 @@
   hosts: all
   tasks:
   yum:
-     state: latest
-     name: httpd
+      state: latest
+      name: httpd
 
       - name: start httpd daemon 
         service:
