@@ -1,9 +1,9 @@
-- name: Privilege Excalation
+- name: Privilege Escalation
   hosts: all
-  tasks:
 
-   - name: Install HTTPD
-     yum:
-        - name: httpd
-          state: latest
-  become: true   
+  tasks:
+    - name: Install HTTPD
+      yum:
+        name: httpd
+        state: latest
+  become: true          
