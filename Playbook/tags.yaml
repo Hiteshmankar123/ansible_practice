@@ -9,4 +9,6 @@
        debug:
          msg: "Welcome to India"
 
-     - name:
+     - name: tag
+       debug:
+       
