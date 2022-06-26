@@ -2,8 +2,8 @@
   hosts: all
 
   tasks:
-    - name: Install HTTPD
-      yum:
-        name: httpd
-        state: latest
-  become: true          
+    name: Ensure the httpd service is running
+  service:
+    name: httpd
+    state: started
+  become: yes        
