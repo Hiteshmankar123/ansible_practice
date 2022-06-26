@@ -1,7 +1,7 @@
 - name: Loop in Playbook
   hosts: all
   tasks:
-     - name: loop
+     - name: loop 
        debug:
          msg: 'my fav fruit {{ item }}'
   loop:
