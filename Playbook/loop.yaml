@@ -3,5 +3,5 @@
   tasks:
      - name: loop
        debug:
-         msg: '{{ items }}'
+         msg: 'my fav fruit {{ items }}'
          loops:  
