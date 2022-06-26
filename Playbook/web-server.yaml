@@ -6,7 +6,7 @@
        state: latest
        name: httpd
  
-    - name: start htt[d]
+    - name: start httpd daemon
        service:
          state: started
          name: httpd
