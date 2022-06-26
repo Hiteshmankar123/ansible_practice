@@ -5,4 +5,6 @@
 
     - name: start httpd daemon 
       service:
-         state:  
+         state: started
+         name: httpd
+           
