@@ -1,3 +1,6 @@
 - name: install java
   yum:
-     state:
+     state: latest
+     name: openjdk-java
+
+     
