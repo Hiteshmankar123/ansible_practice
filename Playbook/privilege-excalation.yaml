@@ -2,7 +2,7 @@
   hosts: all
 
    - name: Install HTTPD
-     yum:
+      yum:
         - name: httpd
           state: latest
       become: true   
