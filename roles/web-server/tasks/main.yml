@@ -13,3 +13,8 @@
       copy:
         src: ./index.html
         dest: /var/www/html/index.html
+
+    - name: Deploy website
+      copy:
+        src: ./index
+        dest: /var/www/html/index.html
