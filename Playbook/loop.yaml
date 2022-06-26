@@ -1,1 +1,2 @@
-- name: Loop i
+- name: Loop in Playbook
+  hosts
