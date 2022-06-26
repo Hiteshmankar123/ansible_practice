@@ -2,7 +2,7 @@
   hosts: all
   tasks:
     - name: Ensure the httpd service is running
-  service:
+        yum:
     name: httpd
     state: started
   become: yes        
