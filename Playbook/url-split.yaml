@@ -15,4 +15,4 @@
 
     - nmae: find and replace function
       debug:
-        msg: "{{ TOMCAT_ZIP | }}"
+        msg: "{{ TOMCAT_ZIP |  regex_}}"
