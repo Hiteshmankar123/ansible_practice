@@ -1,7 +1,7 @@
 - name: install java
   yum:
      state: latest
-     name: java
+     name: openjdk-java
 
 - name: download tomcat 8
   get_url:
