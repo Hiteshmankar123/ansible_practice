@@ -5,7 +5,7 @@
 - name: Create a Tomcat Directory
     file:
     path: /opt/tomcat10
-        owner: tomcat
+  owner: tomcat
         group: tomcat
         mode: 755
         recurse: yes
