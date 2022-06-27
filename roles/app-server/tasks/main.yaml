@@ -12,9 +12,9 @@
  
 - name: Extract tomcat to /opt
   unarchive:
-         src: /opt/{{ TOMCAT_ZIP}}
+         src: /opt/{{ TOMCAT_ZIP }}
          dest: /opt/
-         remote_src: yes
+         remote_src: TRUE
 
 - name: Deploy webapp
   copy:
