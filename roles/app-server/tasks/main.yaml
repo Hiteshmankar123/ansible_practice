@@ -9,10 +9,9 @@
          dest: /opt/
          remote_src: yes
    
-
 - name: Extract tomcat to /opt
   unarchive:
-    src: /opt/{{ apache-tomcat-8.5.81.tar.gz }}
+    src: /opt/{{ TOMCAT_ZIP }}
     dest: /opt/
     remote_src: true
 
