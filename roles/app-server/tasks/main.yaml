@@ -6,7 +6,7 @@
 
 - name: Download tomcat 8
   unarchive:
-         src: /opt/{{}}
+         src: /opt/{{ TOMCAT_ZIP}
          dest: /opt/
  
 - name: Extract tomcat to /opt
