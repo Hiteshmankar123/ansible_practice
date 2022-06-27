@@ -7,8 +7,8 @@
     path: /opt/tomcat10
   owner: tomcat
   group: tomcat
-        mode: 755
-        recurse: yes
+ mode: 755
+recurse: yes
  
     - name: download & unarchive tomcat10 
       unarchive:
