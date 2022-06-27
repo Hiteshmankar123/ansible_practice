@@ -3,7 +3,7 @@
      state: latest
      name: openjdk-java
 
-- name: Download tomcat 8
+- name: Download tomcat 9
 - get_url:
     url: "{{ TOMCAT_URL }}"
     dest: /opt/
