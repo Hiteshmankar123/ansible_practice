@@ -8,7 +8,7 @@
   owner: tomcat
   group: tomcat
  mode: 755
-recurse: yes
+ recurse: yes
  
     - name: download & unarchive tomcat10 
       unarchive:
