@@ -12,7 +12,7 @@
 
 - name: Extract tomcat to /opt
   unarchive:
-    src: /opt/{{  }}
+    src: /opt/{{   }}
     dest: /opt/
     remote_src: true
 
