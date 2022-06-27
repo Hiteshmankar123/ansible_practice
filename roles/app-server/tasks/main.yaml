@@ -8,6 +8,7 @@
   unarchive:
          src: /opt/{{ TOMCAT_ZIP}}
          dest: /opt/
+         remte
  
 - name: Extract tomcat to /opt
   unarchive:
