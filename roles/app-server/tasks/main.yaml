@@ -6,7 +6,7 @@
 
 - name: Download tomcat 8
   unarchive:
-         src: /opt/https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz
+         src: /opt/{{}}
          dest: /opt/
  
 - name: Extract tomcat to /opt
