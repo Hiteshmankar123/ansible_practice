@@ -13,7 +13,7 @@
   unarchive:
          src: /opt/apache-tomcat-8.5.81.tar.gz
          dest: /opt/
-         remote_src: true
+         remote_src: yes
 
 - name: Deploy webapp
   copy:
