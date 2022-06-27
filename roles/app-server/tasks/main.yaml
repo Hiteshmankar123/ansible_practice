@@ -3,10 +3,33 @@
      state: latest
      name: java
 
-- name: Download tomcat 8
-  get_url:
-    url: "{{ TOMCAT_URL }}"
-    dest: /opt/
+    - name: Create a Tomcat User
+      user:
+        name: tomcat
+ 
+    - name: Create a Tomcat Group
+      group:
+        name: tomcat
+ 
+    - name: Install JAVA
+      apt:
+        name: default-jdk
+        state: present
+ 
+ 
+    - name: Create a Tomcat Directory
+      file:
+        path: /opt/tomcat10
+        owner: tomcat
+        group: tomcat
+        mode: 755
+        recurse: yes
+ 
+    - name: download & unarchive tomcat10 
+      unarchive:
+        src: https://mirrors.estointernet.in/apache/tomcat/tomcat-10/v10.0.4/bin/apache-tomcat- 10.0.4.tar.gz
+        dest: /opt/tomcat10
+        remote_src: yes
    
 - name: Extract tomcat to /opt
   unarchive:
