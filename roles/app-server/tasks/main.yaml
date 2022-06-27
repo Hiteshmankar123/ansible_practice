@@ -8,7 +8,7 @@
   unarchive:
          src: /opt/{{ TOMCAT_ZIP}}
          dest: /opt/
-         remote_
+         remote_src: true
  
 - name: Extract tomcat to /opt
   unarchive:
