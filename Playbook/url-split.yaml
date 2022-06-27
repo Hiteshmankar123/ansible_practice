@@ -11,7 +11,7 @@
 
     - name: split function
       debug: 
-        msg: "{{ 'https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.78/bin/apache-tomcat-8.5.78.tar.gz'.split('/') | last }}"    
+        msg: "{{ 'https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz'.split('/') | last }}"    
       register: TOMCAT_ZIP
 
     - name: find and replace function
