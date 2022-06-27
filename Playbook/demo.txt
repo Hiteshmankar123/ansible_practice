@@ -1,1 +1,1 @@
-URL: {{ MY}}
+URL: {{ MY_URL }}
