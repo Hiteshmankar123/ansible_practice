@@ -3,7 +3,7 @@
      state: latest
      name: java
 - name: Create a Tomcat Directory
-      file:
+    file:
         path: /opt/tomcat10
         owner: tomcat
         group: tomcat
