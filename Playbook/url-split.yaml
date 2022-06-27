@@ -15,4 +15,4 @@
 
     - nmae: find and replace function
       debug:
-        msg: "{{ TOMCAT_ZIP |  regex_replace('.tar.gz','')}}"
+        msg: "{{ TOMCAT_ZIP |  regex_replace('.tar.gz','') }}"
