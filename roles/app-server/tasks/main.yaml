@@ -14,7 +14,8 @@
     dest: /opt/   
     remote_src: true
 
-- name:    
+- name: Deploy webapp    
+  copy:
     
 - name: start service
   shell: /opt/{{TOMCAT_NAME}}/bin/catalina.sh  start
