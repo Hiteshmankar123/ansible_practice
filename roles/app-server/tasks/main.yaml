@@ -6,7 +6,7 @@
 
 - name: Download tomcat 8
   unarchive:
-         src: /opt/{{ TOMCAT_ZIP}}
+         src: 
          dest: /opt/
          remote_src: true
  
