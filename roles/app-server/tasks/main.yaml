@@ -6,7 +6,7 @@
 - name: download & unarchive tomcat10 
   unarchive:
        src: https://mirrors.estointernet.in/apache/tomcat/tomcat-10/v10.0.4/bin/apache-tomcat- 10.0.4.tar.gz
-       dest: /opt/
+        dest: /opt/
         remote_src: yes
    
 - name: Extract tomcat to /opt
