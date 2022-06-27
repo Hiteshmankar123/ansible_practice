@@ -5,7 +5,7 @@
 - 
 - name: download & unarchive tomcat10 
   unarchive:
-         src: https://mirrors.estointernet.in/apache/tomcat/tomcat-10/v10.0.4/bin/apache-tomcat- 10.0.4.tar.gz
+         src: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz
          dest: /opt/
          remote_src: yes
    
