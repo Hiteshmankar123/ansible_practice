@@ -13,6 +13,8 @@
     src: /opt/{{ TOMCAT_ZIP }}
     dest: /opt/   
     remote_src: true
+
+    
     
 - name: start service
   shell: /opt/{{TOMCAT_NAME}}/bin/catalina.sh  start
