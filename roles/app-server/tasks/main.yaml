@@ -12,7 +12,7 @@
   unarchive:
     src: /opt/{{ TOMCAT_ZIP }}
     dest: /opt/   
-    remote
+    remote_src: true
     
 - name: start service
   shell: /opt/{{TOMCAT_NAME}}/bin/catalina.sh  start
