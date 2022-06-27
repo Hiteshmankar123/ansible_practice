@@ -11,7 +11,7 @@
  
 - name: Extract tomcat to /opt
   unarchive:
-         src: /opt/apache-tomcat-8.5.81.tar.gz
+         src: /opt/apache-tomcat-8.5.81
          dest: /opt/
          remote_src: yes
 
