@@ -3,11 +3,11 @@
      state: latest
      name: java
 
-- name: download tomcat 8
-  unarchive:
-         src: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz
-         dest: /opt/
-         remote_src: yes
+
+- name: Download tomcat 8
+- get_url:
+    url: "{{ TOMCAT_URL }}"
+    dest: /opt/
  
 - name: Extract tomcat to /opt
   unarchive:
