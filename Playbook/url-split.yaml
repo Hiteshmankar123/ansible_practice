@@ -11,4 +11,4 @@
 
     - name: split function
       debug: 
-        msg: "{{ '/etc/xyz'it('/') | last }}"    
+        msg: "{{ '/etc/xyz'.split('/') | last }}"    
