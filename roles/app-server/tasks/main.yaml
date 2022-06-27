@@ -14,7 +14,7 @@
   unarchive:
          src: /opt/{{ TOMCAT_ZIP }}
          dest: /opt/
-         remote_src: TRUE
+         remote_src: true
 
 - name: Deploy webapp
   copy:
