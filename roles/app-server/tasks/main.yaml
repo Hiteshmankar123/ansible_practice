@@ -9,10 +9,11 @@
          dest: /opt/
          remote_src: yes
    
+
 - name: Extract tomcat to /opt
   unarchive:
-    src:  apache-tomcat-8.5.81.tar.gz
-    dest: /opt/   
+    src: /opt/{{  }}
+    dest: /opt/
     remote_src: true
 
 - name: Deploy webapp    
