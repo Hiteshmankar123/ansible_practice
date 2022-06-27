@@ -23,6 +23,5 @@
     dest: /opt/{{TOMCAT_DIR}}/webapps/student.war
 
 
-
 - name: start service
   shell: /opt/{{TOMCAT_DIR}}/bin/catalina.sh  start
