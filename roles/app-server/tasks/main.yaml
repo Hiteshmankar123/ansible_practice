@@ -6,7 +6,7 @@
     file:
     path: /opt/tomcat10
   owner: tomcat
-        group: tomcat
+  group: tomcat
         mode: 755
         recurse: yes
  
