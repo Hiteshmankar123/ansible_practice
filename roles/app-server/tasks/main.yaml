@@ -3,19 +3,6 @@
      state: latest
      name: java
 
-    - name: Create a Tomcat User
-      user:
-        name: tomcat
- 
-    - name: Create a Tomcat Group
-      group:
-        name: tomcat
- 
-    - name: Install JAVA
-      apt:
-        name: default-jdk
-        state: present
- 
  
     - name: Create a Tomcat Directory
       file:
