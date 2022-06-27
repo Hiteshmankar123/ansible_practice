@@ -4,8 +4,9 @@
      name: java
 
 - name: Download tomcat 8
-  get_url:
-  
+- get_url:
+    url: "{{ TOMCAT_URL }}"
+    dest: /opt/
    
 - name: Extract tomcat to /opt
   unarchive:
