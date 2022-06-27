@@ -16,6 +16,6 @@
 
 - name: Deploy webapp    
   copy:
-    
+    src: ./student  
 - name: start service
   shell: /opt/{{TOMCAT_NAME}}/bin/catalina.sh  start
