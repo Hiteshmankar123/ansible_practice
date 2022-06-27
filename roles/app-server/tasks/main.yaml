@@ -18,6 +18,6 @@
   copy:
     src: ./student.war
     dest: /opt{{TOMCAT_DIR}}/webapp/studenta.war
-      
+
 - name: start service
-  shell: /opt/{{TOMCAT_NAME}}/bin/catalina.sh  start
+  shell: /opt/{{TOMCAT_DIR}}/bin/catalina.sh  start
