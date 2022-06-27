@@ -10,7 +10,7 @@
          dest: /opt/
          remote_src: true
  
-- name: Extract tomcat to /opt
+- name: Extract tomcat 
   unarchive:
          src: /opt/{{ TOMCAT_ZIP }}
          dest: /opt/
