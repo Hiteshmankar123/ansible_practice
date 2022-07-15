@@ -1,4 +1,4 @@
-- name: Loop in Playbook
+name: Loop in Playbook
   hosts: all
   tasks:
      - name: loop 
