@@ -1,6 +1,6 @@
 - name: template example
   hosts: all
-  
+  vars:
   - name: copy 
   
     MY_URL: "XYZ"
