@@ -6,4 +6,4 @@
         msg: "welcome to cloudblitz"
         
 
-- name: Debug Playbook!And 
+- name: Debug Playbook!And hosts:a
