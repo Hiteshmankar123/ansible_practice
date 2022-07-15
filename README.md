@@ -50,4 +50,5 @@ no
 ---shell
 address:
   100,Sai nagar,
-  nagpur-444906.
+  nagpur-444906
+  ...
