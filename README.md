@@ -48,7 +48,7 @@ no
 
 - Multiline Input
 ---shell
-address: 
+address: |/////
   100,Sai nagar,
   nagpur-444906
   ...
