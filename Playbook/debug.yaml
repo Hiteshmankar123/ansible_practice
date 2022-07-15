@@ -9,4 +9,5 @@
 - name: Debug Playbook
   hosts: all
   tasks:
-    - Name: 
+    - Name: print message
+    
