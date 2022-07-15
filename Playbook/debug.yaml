@@ -11,4 +11,4 @@
   tasks:
     - Name: print message
       debug:
-        msg: "welcome to cloudblitz"
+        msg: "welcome to cloud"
