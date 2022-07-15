@@ -1,2 +1,4 @@
 - name: My first playbook
   hosts: all
+  tasks:
+  
