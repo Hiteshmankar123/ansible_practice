@@ -2,7 +2,6 @@
   hosts: all
   vars:
   - name: copy 
-  
     MY_URL: "XYZ"
   tasks:
       copy: 
