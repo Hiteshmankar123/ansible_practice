@@ -21,4 +21,5 @@
 
      - name: print maharashtra
        debug:
-        
+         msg:
+        tags:  
