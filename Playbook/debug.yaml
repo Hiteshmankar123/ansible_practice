@@ -5,10 +5,3 @@
       debug:
         msg: "welcome to cloudblitz"
         
-
-- name: Debug Playbook
-  hosts: all
-  tasks:
-    - Name: print message
-      debug:
-        msg: "welcome to cloud"
