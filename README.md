@@ -30,8 +30,8 @@ Emp_no: 10223
 ...
 
 - string (collection of words)
----shell
-Name: "hitesh"
+---shell                     ----shell
+Name: "hitesh"                 name: ""
 surname: "mankar"
 welcome: "hello world"
 ...
