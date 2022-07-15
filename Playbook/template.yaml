@@ -1,6 +1,7 @@
 - name: template example
   hosts: all
-  - name: copyvars:
+  - name: copy 
+  vars:
     MY_URL: "XYZ"
   tasks:
       copy: 
