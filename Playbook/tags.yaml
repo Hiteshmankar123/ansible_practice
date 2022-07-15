@@ -21,6 +21,6 @@
 
      - name: print maharashtra
        debug:
-         msg:
+         msg: ""
        tags:
          - Maharashtra  
