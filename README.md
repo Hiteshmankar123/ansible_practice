@@ -47,10 +47,3 @@ no
 
 
 
-
----Boolean value 
-male: true
-false 
-1 
-0
-
