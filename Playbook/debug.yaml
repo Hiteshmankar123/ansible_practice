@@ -10,4 +10,5 @@
   hosts: all
   tasks:
     - Name: print message
-    
+      debug:
+      
