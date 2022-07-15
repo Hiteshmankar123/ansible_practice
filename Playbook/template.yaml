@@ -6,7 +6,7 @@
   tasks:
       copy: 
         src: ./demo.txt
-         dest: ~/copy.txt
+        dest: ~/copy.txt
 
          - name: template
         template:
