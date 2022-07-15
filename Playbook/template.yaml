@@ -8,7 +8,7 @@
         src: ./demo.txt
         dest: ~/copy.txt
 
-    - name: template
+      - name: template
       template:
         src: ./demo.txt
         dest: ~/template.txt
