@@ -1,9 +1,9 @@
 - name: template example
   hosts: all
-  vars:
+  
+    - name: copyvars:
     MY_URL: "XYZ"
   tasks:
-    - name: copy
       copy: 
         src: ./demo.txt
         dest: ~/copy.txt
